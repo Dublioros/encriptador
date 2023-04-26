@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto Encriptador</title>
+</head>
+<body>
+     <!-- Encabezado Logo y Titulo -->
+    <header>
+
+        <div class="encabezado">
+            <a href="https://www.aluracursos.com/" target="_blank"><i class="fa-brands fa-amilia fa-beat fa-2xl" style="color: #fffafa;"></i></a>
+            <h1 class="titulo-principal" id="titulo-principal">Challange One: Encriptador de Texto</h1>
+        </div>
+
+    </header>
+
+    <!-- Proyecto Encriptador -->
+    <main id="main">
+        <!-- Seccion IZQ para ingresar el texto -->
+        <div class="div-section">
+            <section class="ingreso-texto-iz">
+
+                <h2 id="subtitulo-izquiera">Inicializador de Codificación</h2>
+                <textarea class="texto-codigo" name="texto-codigo" id="texto-codigo" cols="50" rows="15" placeholder="Ingrese su código solo en minúsculas y sin acentos" style="resize: none;" required id="texto-codigo" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toLowerCase()"></textarea>
+
+                <div class="btn">
+                    <input class ="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
+                    <input class ="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+                </div>
+
+            </section>
+
+            <!-- Seccion DER para mostrar el texto -->
+            <section class="muestra-texto-der">
+
+                <div class="mostrar-mensaje" id="mostrar-mensaje">
+                    <h2 id="mostrar-texto">Analizando</h2>
+                    <textarea readonly class="area-mensaje" name="mensaje" id="area-mensaje" cols="50" rows="15" style="resize: none;"></textarea >
+                </div>
+                
+                <div class="btn">
+                    <input class ="btn-copiar" type="button" value="Copiar" onclick="copiar()">
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+
+    <!-- Pie de Pagina, derechos reservados y links a redes sociales -->
+    <footer>
+        <!-- Enlances de redes sociales -->
+        <div class="social-media" id="div">
+            <a href="https://www.facebook.com/aluracursoslatam" target="_blank"><i class="fa-brands fa-facebook fa-bounce" ></i></a>
+            <a href="https://github.com/Dublioros" target="_blank"><i class="fa-brands fa-github fa-bounce"></i></a>
+        </div>
+        
+        <span class="span-footer">Copyright &copy; 2023 Jose Carlo Gutierrez Schweitzer, todos los derechos reservados.</span>
+    </footer>
+
+    <!-- Codigo Script -->
+    <script src="script.js"></script> 
+    <script src="https://kit.fontawesome.com/132d1ba02a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
