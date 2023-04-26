@@ -1,1 +1,364 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}:root{--font-family: "Poppins", sans-serif;--color-white: #f3f3f3;--accent-left: rgb(0 0 0 / 80%);--accent-right: rgb(75 122 110 / 70%);--btn-background: rgb(31, 83, 100);--btn-hover: #0c181d;--sect-background: rgba(0, 1, 2, 0.50)}*,::before ::after{box-sizing:border-box}button,input,textarea,select{font-family:inherit}body{font-family:var(--font-family);font-weight:lighter;line-height:1.6;font-size:16px;background:linear-gradient(to right, var(--accent-left), var(--accent-right)),url(https://images.alphacoders.com/966/966797.png);background-position:center;color:var(--color-white);margin:0}html{font-size:16px;scroll-behavior:smooth}header{display:flex;padding:1rem;justify-content:space-around;height:auto;align-items:center}.encabezado{display:flex;align-items:center;font-size:20px;margin:auto}i#logo-alura{display:flex;align-self:center;margin:0 10px}.titulo-principal{display:flex;width:100%;text-align:center;margin:20px}main{width:auto;margin:auto;display:grid;justify-content:space-around}section{background:var(--sect-background);border-radius:1rem;display:grid}h2{display:flex;justify-content:center;margin:5px 0px;padding:0 0}.ingreso-texto-iz{float:left;padding:30px;margin:30px;width:35%;display:inline}.muestra-texto-der{background-image:url(https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);background-size:contain;background-position:center;background-color:#000;background-repeat:no-repeat;float:right;padding:30px;margin:30px;width:35%;opacity:70%;display:inline}p#mensaje-no-encontrado{font-size:1vw;text-align:center}textarea#texto-codigo{margin-top:2rem;border:none;color:var(--color-white);background:rgba(0,0,0,0);width:100%;margin-top:0;height:auto}input{border-radius:5px;padding:5px;margin:0 5px;place-self:center;cursor:pointer}.btn{display:flex;width:100%;justify-content:center;border-radius:10px;margin:10px 0 0 0;padding:0}input.btn-encriptar{float:left;background:var(--btn-background);color:var(--color-white);width:35%;align-self:flex-end}input.btn-encriptar:hover{background-color:var(--btn-hover);border:3px solid #a7f8ec;opacity:70%;transition:.5s}input.btn-desencriptar{background:var(--btn-background);color:var(--color-white);width:35%;float:right}input.btn-desencriptar:hover{background-color:var(--btn-hover);border:3px solid #dab97c;opacity:70%;transition:.5s}textarea#area-mensaje{border:none;color:var(--color-white);background:rgba(0,0,0,0);width:100%;margin-top:0;height:auto}@keyframes fade-inout{0%{opacity:1}100%{opacity:0}}h2#mostrar-texto{animation:fade-inout 1s infinite alternate}input.btn-copiar{display:flex;background:var(--btn-background);color:var(--color-white);width:35%;justify-content:center;align-self:flex-end}input.btn-copiar:hover{background-color:var(--btn-hover);border:3px solid #d46b8c;opacity:70%;transition:.5s}footer{width:auto;padding:10px;display:flex;margin:35px 35px 35px 35px;padding:1rem;align-content:stretch;place-content:center}footer>span{display:flex;justify-content:center;font-size:.9em;color:var(--color-white);animation:3s ease-in-out 0s infinite normal none running glow;margin:0 10px}a{color:var(--color-white)}div#div{cursor:pointer}i.fa-brands.fa-facebook.fa-bounce{margin:0 10px}i.fa-brands.fa-linkedin.fa-bounce{margin:0 10px}@keyframes glow{10%,70%{color:var(--color-white);text-shadow:0 0 5px #0ef,0 0 10px #008cff,0 0 15px #008cff}}.swal-wide{width:auto}@media screen and (max-width: 1141px){.encabezado{margin:20px}body{width:auto}footer{width:90%}.div-section{display:grid}input{font-size:18px;padding:0px;min-inline-size:-moz-max-content;min-inline-size:max-content}section{width:auto}.ingreso-texto-iz{width:auto}.muestra-texto-der{width:auto}div#div{display:flex}main{width:auto}textarea{font-size:20px}}@media screen and (max-width: 950px){body{width:auto}footer{width:90%}.div-section{display:grid}input{padding:10px;font-size:20px;min-inline-size:-moz-max-content;min-inline-size:max-content}section{width:auto;font-size:25px}.ingreso-texto-iz{width:auto}.muestra-texto-der{width:auto}div#div{display:flex}main{width:auto}}@media screen and (max-width: 540px){.encabezado{margin:20px}body{width:auto}footer{width:auto}.div-section{display:grid}input{font-size:15px;padding:0;min-inline-size:-moz-max-content;min-inline-size:max-content}section{width:auto}.ingreso-texto-iz{width:auto}.muestra-texto-der{width:auto}div#div{display:flex}div#div{display:flex}main{width:auto}}@media screen and (max-width: 440px){body{padding:.625rem;width:auto}main{width:auto}.encabezado{margin:15px}footer{width:auto}input{padding:5px}}
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Principal */
+:root {
+--font-family: 'Poppins', sans-serif;
+
+--color-white: #f3f3f3;
+--accent-left: rgb(0 0 0 / 80%);
+--accent-right: rgb(75 122 110 / 70%);
+
+--btn-background: rgb(31, 83, 100);
+--btn-hover: #0c181d;
+--sect-background: rgba(0, 1, 2, 0.50);
+}
+
+*,
+::before
+::after{
+box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: lighter;
+    line-height: 1.6;
+    font-size: 16px;
+    background: linear-gradient( to right, var(--accent-left), var(--accent-right)),
+    url(https://images.alphacoders.com/966/966797.png);
+    background-position: center;
+    color: var(--color-white);
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header{
+    margin: 2rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    height: auto;
+    align-items: center;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: auto;
+}
+
+/*EDICION LOGO*/
+i#logo-alura {
+    display: flex;
+    align-self: center;
+    margin: 0 10px;
+}
+
+/*EDICION TITULO PRINCIPAL*/
+.titulo-principal {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+/* MAIN */
+main{
+    width: auto;
+    margin: auto;
+    display: grid;
+    justify-content: space-around;
+}
+
+section {
+    background: var(--sect-background);
+    border-radius: 1rem;
+    display: grid;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    padding: 0 0;
+}
+
+.ingreso-texto-iz {
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    width: 35%;
+    display: inline;
+}
+
+.muestra-texto-der {
+    background-image: url(https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    float: right;
+    padding: 30px;
+    margin: 30px;
+    width: 35%;
+    opacity: 70%;
+    display: inline;
+}
+
+p#mensaje-no-encontrado {
+    font-size: 1vw;
+    text-align: center;
+}
+
+/*TEXTAREA IZQ*/
+textarea#texto-codigo {
+    margin-top: 2rem;
+    border: none;
+    color: var(--color-white);
+    background: transparent;
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+}
+
+/* CCS Botones*/
+input {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+    place-self: center;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+/* Boton DER */
+input.btn-encriptar{
+    float: left;
+    background: var(--btn-background);
+    color: var(--color-white);
+    width: 35%;
+    align-self: flex-end;
+}
+
+input.btn-encriptar:hover{
+    background-color: var(--btn-hover);
+    border: 3px solid #a7f8ec;
+    opacity: 70%;
+    transition: 0.5s;
+    
+}
+
+input.btn-desencriptar {
+    background: var(--btn-background);
+    color: var(--color-white);
+    width: 35%;
+    float: right;
+}
+
+input.btn-desencriptar:hover{
+    background-color: var(--btn-hover);
+    border: 3px solid #dab97c;
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+/*TEXTAREA DER*/
+textarea#area-mensaje {
+    border: none;
+    color: var(--color-white);
+    background: transparent;
+    width: 100%;
+    margin-top: 0;
+    height: auto;
+}
+
+/* Animacion h2#mostrar-text*/
+@keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+        
+h2#mostrar-texto{
+    animation: fade-inout 1s infinite alternate;
+}
+    
+/* Boton DER */
+input.btn-copiar{
+    display: flex;
+    background: var(--btn-background);
+    color: var(--color-white);
+    width: 35%;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+input.btn-copiar:hover{
+    background-color: var(--btn-hover);
+    border: 3px solid #d46b8c;
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+/* FOOTER */
+footer {
+    width: auto;
+    padding: 10px;
+    display: flex;
+    margin: 35px 35px 35px 35px;
+    padding: 1rem;
+    align-content: stretch;
+    place-content: center;
+}
+
+footer > span {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    color: var(--color-white);
+    animation: 3s ease-in-out 0s infinite normal none running glow;
+    margin: 0 10px;
+}
+
+a{
+    color: var(--color-white);
+}
+
+div#div {
+    cursor: pointer;
+}
+
+i.fa-brands.fa-facebook.fa-bounce {
+    margin: 0 10px;
+}
+
+i.fa-brands.fa-linkedin.fa-bounce {
+    margin: 0 10px;
+}
+
+/*Glow Span Effect*/
+@keyframes glow{
+	10%, 70%{
+	color: var(--color-white);
+	text-shadow: 0 0 5px rgb(0, 238, 255), 0 0 10px rgb(0, 140, 255), 0 0 15px rgb(0, 140, 255);
+}
+}
+.swal-wide{
+    width:auto;
+}
+
+/* Media */
+@media screen and (max-width: 1141px) {
+    .encabezado { margin: 20px; }
+    body { width: auto; }
+    footer { width: 90%; }
+    .div-section { display: grid; }
+    input { font-size: 18px; padding: 0px; min-inline-size: max-content; }
+    section { width: auto; }
+    .ingreso-texto-iz { width: auto; }
+    .muestra-texto-der { width: auto; }
+    div#div { display: flex; }
+    main { width: auto; }
+    textarea{font-size:20px;}
+}
+
+@media screen and (max-width: 950px) {
+    header{ margin: 1rem}
+    body{ width: auto;}
+    footer{ width: 90%;}
+    .div-section { display: grid;}
+    input{ padding: 10px; font-size: 20px;; min-inline-size: max-content;}
+    section { width: auto; font-size: 25px;}
+    .ingreso-texto-iz{ width: auto;}
+    .muestra-texto-der{ width: auto;}
+    div#div { display: flex;}
+    main{ width: auto;}
+}
+
+@media screen and (max-width: 540px) {
+    header{ margin:0;}
+    .encabezado{ margin: 20px;}
+    body{ width: auto;}
+    footer{ width: auto;}
+    .div-section { display: grid;}
+    input{ font-size: 15px; padding: 0; min-inline-size: max-content;}
+    section{ width: auto;}
+    .ingreso-texto-iz{ width: auto;}
+    .muestra-texto-der{ width: auto;}
+    div#div { display: flex;}
+    div#div { display: flex;}
+    main{ width: auto;}
+}
+
+@media screen and (max-width: 440px) {
+    header{ margin: 0;}
+    body { padding: 0.625rem; width: auto;}
+    main {width: auto;}   
+    .encabezado{ margin: 15px;}
+    footer{width: auto;}
+    input{padding: 5px; }
+}
