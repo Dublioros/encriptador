@@ -89,6 +89,7 @@ html {
 
 /* HEADER */
 header{
+    margin: 2rem;
     display: flex;
     padding: 1rem;
     justify-content: space-around;
@@ -326,6 +327,7 @@ i.fa-brands.fa-linkedin.fa-bounce {
 }
 
 @media screen and (max-width: 950px) {
+    header{ margin: 1rem}
     body{ width: auto;}
     footer{ width: 90%;}
     .div-section { display: grid;}
@@ -338,6 +340,7 @@ i.fa-brands.fa-linkedin.fa-bounce {
 }
 
 @media screen and (max-width: 540px) {
+    header{ margin:0;}
     .encabezado{ margin: 20px;}
     body{ width: auto;}
     footer{ width: auto;}
@@ -352,6 +355,7 @@ i.fa-brands.fa-linkedin.fa-bounce {
 }
 
 @media screen and (max-width: 440px) {
+    header{ margin: 0;}
     body { padding: 0.625rem; width: auto;}
     main {width: auto;}   
     .encabezado{ margin: 15px;}
